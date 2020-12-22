@@ -42,7 +42,7 @@ public class Card {
 
   @Override
   public int hashCode() {
-    return this.value;
+    return this.value + this.suit.hashCode();
   }
 
   @Override
