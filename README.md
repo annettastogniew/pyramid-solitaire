@@ -25,7 +25,8 @@ Various models exist in this program that each support each type of gameplay, bu
 are used by a single controller and a single textual view. 
 
 Users can run the program through the main class, PyramidSolitaire, by giving command-line
-arguments to remove cards or quit the game. The format of command-line arguments are 
+arguments to remove cards or quit the game. The user can also specify the desired number of rows
+and draw cards before giving gameplay commands. The format of command-line arguments are 
 described in the comments of the controller class.
 
 ## Technologies
